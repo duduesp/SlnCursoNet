@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace slnCursoNet.Entidades
 {
-    public class ClienteEmpresa
+    public class Empresa
     {
         #region Propiedades
         public string Nombre { get; set; }
@@ -20,7 +20,7 @@ namespace slnCursoNet.Entidades
 
         #region Constructor
 
-        public ClienteEmpresa(string Nombre, string CUIT, string Contacto, string Email, string Telefono, string Direccion) 
+        public Empresa(string Nombre, string CUIT, string Contacto, string Email, string Telefono, string Direccion)
         {
             this.Nombre = Nombre;
             this.CUIT = CUIT;
@@ -29,7 +29,7 @@ namespace slnCursoNet.Entidades
             this.Telefono = Telefono;
             this.Direccion = Direccion;
         }
-
+        public Empresa() { }
         #endregion
     }
 }

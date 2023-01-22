@@ -40,6 +40,8 @@ namespace slnCursoNet.Entidades
             this.Categoria = Categoria;
             this.SubCategoria = SubCategoria;
         }
+
+        public Producto() { }
         #endregion
 
     }

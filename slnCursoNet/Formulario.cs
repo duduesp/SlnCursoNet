@@ -37,7 +37,7 @@ namespace slnCursoNet
 
         private void btnCrearEmpresa_Click_Click(object sender, EventArgs e)
         {
-            Proveedor proveedor = new Proveedor("Coca-Cola", "12-45765789-1", "Juan Perez", "juan@coca-cola.com", "43457890", "CABA");
+            Empresa proveedor = new Empresa("Coca-Cola", "12-45765789-1", "Juan Perez", "juan@coca-cola.com", "43457890", "CABA");
 
             MessageBox.Show($"Empresa Creada = Nombre: {proveedor.Nombre}, CUIT: {proveedor.CUIT}, Contacto: {proveedor.Contacto}, Telefono: {proveedor.Telefono}, Direccion: {proveedor.Direccion}");
 
